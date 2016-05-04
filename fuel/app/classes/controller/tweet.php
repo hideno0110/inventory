@@ -16,4 +16,13 @@ class Controller_Tweet extends Controller_Template
 		$data["title"] = $this->template->title;
 		$this->template->content = View::forge('tweet/about',$data);
 	}
+
+	public function action_study()
+	{
+		$this->template->title = '学習履歴';
+		$data["title"] = $this->template->title;
+		$this->template->content = View::forge('tweet/study',$data);
+	}
+
+
 }
