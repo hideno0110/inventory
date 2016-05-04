@@ -1,0 +1,4 @@
+<?php
+$str="曜日でわかる";
+$array_week=array("Sun"=>"日","Mon"=>"火");
+print $array_week ["Mon"].$str;
