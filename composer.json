@@ -19,7 +19,9 @@
         "michelf/php-markdown": "1.4.0"
     },
     "require-dev": {
-        "fuel/docs": "1.8.*"
+        "fuel/docs": "1.8.*",
+                "phpunit/phpunit": "4.1.*",
+        "piece/stagehand-testrunner": ">=3.5.0"
     },
     "suggest": {
         "dwoo/dwoo" : "Allow Dwoo templating with the Parser package",
@@ -43,6 +45,7 @@
             "php oil r install"
         ]
     },
+
+
     "minimum-stability": "stable"
 }
-
