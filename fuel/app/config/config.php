@@ -43,7 +43,7 @@ return array(
 	 */
 	// 'index_file' => false,
 
-	// 'profiling'  => false,
+	 'profiling'  => true,
 
 	/**
 	 * Default location for the file cache
@@ -86,7 +86,7 @@ return array(
 	/**
 	 * Internal string encoding charset
 	 */
-	// 'encoding'  => 'UTF-8',
+	 'encoding'  => 'UTF-8',
 
 	/**
 	 * DateTime settings
