@@ -22,8 +22,8 @@
 					<li><a href="/">Toppage</a></li>
 					<li><a href="/request/">Request</a></li>					
 					<li><a href="/tweet/about/">About Us</a></li>
-					<li><a href="/tweet/study/">study</a></li>
-				</ul>
+					<li><a href="/tweet/study/">Study</a></li>
+					<li><a href="/form/">Contact</a></li>				</ul>
 			</div>
 		</div>
 	</nav>
