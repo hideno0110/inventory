@@ -2,7 +2,14 @@
 
 class Controller_Tweet extends Controller_Template
 {
-
+	public function before()
+	{
+		parent::before();
+		//未ログインの場合、ログインページへリダイレクト
+		if(!Auth::check()){
+			Response::redirect('/login');
+		}
+	}
 	public function action_index()
 	{
 		$data["subnav"] = array('index'=> 'active' );
